@@ -3,7 +3,7 @@ import seth from './seth.JPG'
 
 function App() {
   return (<>
-    <div>
+    <div className='home'>
       <h1>WELCOME!</h1>
       <img src={seth} alt="headshot" height={450} width={300}></img>
       <h3>Welcome to my personal website! I am a

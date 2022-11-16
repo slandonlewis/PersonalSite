@@ -1,9 +1,17 @@
 footer {
-    background-color: aquamarine;
+    background-color: rgb(3, 36, 69);
+    color: aliceblue;
     padding: 30px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(111, 149, 244);
 }
