@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko&display=swap');
+
 footer {
     background-color: rgb(3, 36, 69);
     color: aliceblue;
-    padding: 30px;
+    padding: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -10,8 +12,33 @@ footer {
 }
 
 .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 5%;
     background-color: rgb(111, 149, 244);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+}
+
+p {
+    font-size: larger;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: all .3s;
+}
+
+.icon:hover {
+    rotate: 360deg;
+    scale: 1.2;
+    filter: drop-shadow(0 0 15px #000);
 }

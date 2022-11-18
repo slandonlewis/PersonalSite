@@ -4,6 +4,7 @@ import gmail from './gmail.png'
 import linkedin from './linkedin.png'
 import imessage from './imessage.png'
 
+// copies phone number or gmail
 function copyContactInfo(info) {
     navigator.clipboard.writeText(info)
 }
@@ -15,13 +16,13 @@ function ContactInfo() {
             <p>Clicking LinkedIn or GitHub will redirect you to my profile pages. Clicking Gmail or iMessage will copy my email address or phone number to your clipboard.</p>
             <div className="footer-icons">
                 <a href="https://www.linkedin.com/in/seth-lewis-27a007245/" target="blank">
-                    <img className="icon" src={linkedin} height={150} width={150}></img>
+                    <img className="icon" src={linkedin} height={100} width={100}></img>
                 </a>
                 <a href="https://github.com/slandonlewis" target="blank">
-                    <img className="icon" src={github} height={150} width={150}></img>
+                    <img className="icon" src={github} height={100} width={100}></img>
                 </a>
-                <img src={gmail} onClick={() => { copyContactInfo("slandonlewis@gmail.com") }} height={150} width={150}></img>
-                <img src={imessage} onClick={() => { copyContactInfo("615-489-0523") }} height={150} width={150}></img>
+                <img src={gmail} className="icon" onClick={() => { copyContactInfo("slandonlewis@gmail.com") }} height={100} width={100}></img>
+                <img src={imessage} className="icon" onClick={() => { copyContactInfo("615-489-0523") }} height={100} width={100}></img>
             </div>
         </footer>
     </>

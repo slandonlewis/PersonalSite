@@ -1,7 +1,7 @@
 import './App.css';
 import seth from './seth.JPG'
 
-function App() {
+function Home() {
   return (<>
     <div className='home'>
       <h1>WELCOME!</h1>
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

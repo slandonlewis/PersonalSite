@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './Home';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CollapsibleExample from './Navbar.js'
@@ -10,9 +10,7 @@ import ContactInfo from './Contact';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CollapsibleExample />
-    <Home />
-    <ContactInfo />
+    <App />
   </React.StrictMode>
 );
 
