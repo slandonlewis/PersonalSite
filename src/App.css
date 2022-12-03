@@ -13,18 +13,55 @@ footer {
 
 .home {
     margin-top: 10px;
-    background-color: rgb(111, 149, 244);
+    background-color: rgba(205, 219, 255, 0.505);
     text-align: center;
     padding: 10px;
     font-family: 'Bebas Neue', cursive;
 }
 
+.about {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(205, 219, 255, 0.505);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bio {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.techstack {
+    margin-left: 25px;
+    background-color: rgb(165, 174, 211);
+}
+
+.horizontal {
+    display: flex;
+    padding: 12px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 12px;
+    padding: 12px;
+    background-color: rgba(217, 237, 254, 0.849);
+}
+
 body {
     font-family: 'Teko', sans-serif;
+    background-image: url(https://www.visittheusa.com/sites/default/files/styles/1_1_s_x2_920x920/public/images/hero_media_image/2016-10/HERO%201_Nashville_TN_shutterstock_208620637_Web72DPI.jpg?h=c11c9c1d&itok=uP2Or37j);
+    background-repeat: no-repeat;
+    background-size: 100% 500%;
 }
 
 p {
-    font-size: larger;
+    font-size: 22px;
 }
 
 img:hover {
