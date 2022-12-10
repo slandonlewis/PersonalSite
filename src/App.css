@@ -103,3 +103,17 @@ img:hover {
     border-style: inset;
     border-width: 7px;
 }
+
+button {
+    border: none;
+    background-color: rgb(31, 31, 141);
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+button:hover {
+    background-color: rgb(77, 77, 216);
+    transform: scale(1.1);
+}
