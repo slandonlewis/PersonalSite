@@ -4,14 +4,14 @@ import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 
-export default function ApplicationViews({ isLoggedIn }) {
+export default function ApplicationViews() {
     return (
         <main>
             <Routes>
-                <Route path="/">
-                    <Route path="/" element={<Home />} />
-                    <Route path="about_me" element={<AboutMe />} />
-                    <Route path="portfolio" element={<Portfolio />} />
+                <Route path="/#">
+                    <Route path="/#" element={<Home />} />
+                    <Route path="#/about_me" element={<AboutMe />} />
+                    <Route path="#/portfolio" element={<Portfolio />} />
                 </Route>
             </Routes >
         </main >
