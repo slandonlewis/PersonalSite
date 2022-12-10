@@ -55,9 +55,9 @@ footer {
 
 body {
     font-family: 'Teko', sans-serif;
-    background-image: url(https://www.visittheusa.com/sites/default/files/styles/1_1_s_x2_920x920/public/images/hero_media_image/2016-10/HERO%201_Nashville_TN_shutterstock_208620637_Web72DPI.jpg?h=c11c9c1d&itok=uP2Or37j);
+    background: url(https://www.visittheusa.com/sites/default/files/styles/1_1_s_x2_920x920/public/images/hero_media_image/2016-10/HERO%201_Nashville_TN_shutterstock_208620637_Web72DPI.jpg?h=c11c9c1d&itok=uP2Or37j) no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: 100% 500%;
+    background-size: cover;
 }
 
 p {
@@ -116,4 +116,11 @@ button {
 button:hover {
     background-color: rgb(77, 77, 216);
     transform: scale(1.1);
+}
+
+.spotify {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
