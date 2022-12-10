@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PersonalSite/static/css/main.a60e6c5a.css",
+    "main.js": "/PersonalSite/static/js/main.7cf48b04.js",
+    "static/js/787.a48e2b56.chunk.js": "/PersonalSite/static/js/787.a48e2b56.chunk.js",
+    "static/media/seth.JPG": "/PersonalSite/static/media/seth.d56c3701968673f1891c.JPG",
+    "static/media/geekgallery.png": "/PersonalSite/static/media/geekgallery.3d6936fa4277be75cbf1.png",
+    "static/media/ad.png": "/PersonalSite/static/media/ad.1ab620eb8a1088aa8bf8.png",
+    "static/media/spotify.png": "/PersonalSite/static/media/spotify.369a04cfd3a2e1ba202a.png",
+    "static/media/getstrong.png": "/PersonalSite/static/media/getstrong.49421522ea40a905afea.png",
+    "static/media/imessage.png": "/PersonalSite/static/media/imessage.53cfefb06d4bdb3f55bd.png",
+    "static/media/github.png": "/PersonalSite/static/media/github.3d37d0c2d2950d8c1640.png",
+    "static/media/gmail.png": "/PersonalSite/static/media/gmail.52d10e0e8eb5e240b9d4.png",
+    "static/media/linkedin.png": "/PersonalSite/static/media/linkedin.de1eea5fb50ab927d4ea.png",
+    "index.html": "/PersonalSite/index.html",
+    "main.a60e6c5a.css.map": "/PersonalSite/static/css/main.a60e6c5a.css.map",
+    "main.7cf48b04.js.map": "/PersonalSite/static/js/main.7cf48b04.js.map",
+    "787.a48e2b56.chunk.js.map": "/PersonalSite/static/js/787.a48e2b56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a60e6c5a.css",
+    "static/js/main.7cf48b04.js"
+  ]
+}
